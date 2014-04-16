@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.valentina.converter_metals.app" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.valentina.converter_metals.app.main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.valentina.converter_metals.app.spinner"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name=".CustomListBaseAdapterActivity"
+            android:label="@string/title_activity_custom_list_base_adapter" >
+        </activity>
+    </application>
+
+</manifest>

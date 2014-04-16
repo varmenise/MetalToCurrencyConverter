@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">converter_metals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="currency_prompt">Choose a currency</string>
+
+    <string-array name="currency_arrays">
+        <item>USD</item>
+        <item>CHF</item>
+        <item>EUR</item>
+        <item>AUD</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>GBP</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>MXN</item>
+        <item>RUB</item>
+        <item>ZAR</item>
+    </string-array>
+
+    <string name="title_activity_spinner">spinner</string>
+
+    <string-array name="metals_array">
+        <item>Gold</item>
+        <item>Palladium</item>
+        <item>Platinum</item>
+        <item>Silver</item>
+    </string-array>
+
+    <string name="title_activity_custom_list_base_adapter">CustomListBaseAdapter</string>
+
+</resources>
