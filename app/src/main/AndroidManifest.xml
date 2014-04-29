@@ -3,7 +3,6 @@
     package="com.valentina.converter_metals.app" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-library android:name="android.test.runner" />
 
 
     <application
@@ -11,6 +10,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
         <activity
             android:name="com.valentina.converter_metals.app.main"
             android:label="@string/app_name" >
