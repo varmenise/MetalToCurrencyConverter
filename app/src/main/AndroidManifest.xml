@@ -28,5 +28,5 @@
             android:label="@string/title_activity_custom_list_base_adapter" >
         </activity>
     </application>
-
+    <instrumentation android:targetPackage="com.valentina.converter_metals.app.tests" android:name="android.test.InstrumentationTestRunner" />
 </manifest>
