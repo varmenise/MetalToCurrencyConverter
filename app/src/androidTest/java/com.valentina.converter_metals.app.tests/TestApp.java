@@ -1,4 +1,4 @@
-package com.valentina.converter_metals.app;
+package com.valentina.converter_metals.app.tests;
 import android.test.InstrumentationTestCase;
 
 /**
