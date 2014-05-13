@@ -9,14 +9,8 @@ android {
         targetSdkVersion 19
         versionCode 1
         versionName "1.0"
-        testPackageName "com.valentina.converter_metals.app.tests"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"
-        testHandleProfiling true
-        testFunctionalTest true
 
-        dependencies {
-            androidTestCompile 'com.google.guava:guava:11.0.2'
-        }
+
 
     }
     buildTypes {
@@ -31,5 +25,4 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:19.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile 'com.jayway.android.robotium:robotium-solo:4.3.1'
 }
